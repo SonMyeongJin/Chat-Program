@@ -9,8 +9,6 @@ public class ChatServer {
     ServerSocket serverSocket;
     ExecutorService threadPool = Executors.newFixedThreadPool(100);
     Map<String, SocketClient> chatRoom = Collections.synchronizedMap(new HashMap<>());
-
-
     public static void maid(String[] arg){
 
 
